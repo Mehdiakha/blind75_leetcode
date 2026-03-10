@@ -25,7 +25,7 @@ target = 18
 print(twoSum(nums, target))
 
 '''
-we track each number and index in our list, in each iteration we check of the needed number is in seen,
+we track each number and index in our list, in each iteration we check if the needed number is in seen,
 if not we store the current number in it, if we see it, we return the seen number's index and the current number index as a list
 
 '''
